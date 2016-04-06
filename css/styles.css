@@ -1,5 +1,6 @@
 body {
 	font-family: arial;
+	padding-left: 200px;
 }
 
 nav ul {
@@ -24,6 +25,8 @@ nav li a:hover,
 nav {
 	padding: 10px 0 0 10px;
 	width: 240px;
+	position: fixed;
+	left: 10px;
 		
 
 }
@@ -38,4 +41,20 @@ nav ul ~ a {
 }
 nav ul ~ a:hover {
 	color: #e5005f;
+}
+main aside p {
+background-color: #dddddd;
+padding: 5px;
+
+}
+main {
+	width: 45%;
+}
+hr {
+	height: 10px;
+	border: none;
+	border-top: 1px solid #dddddd;
+}
+article img {
+	max-width: 100%;
 }
