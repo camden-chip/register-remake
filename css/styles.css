@@ -114,3 +114,15 @@ article img {
 #scroll-right{
 	right: 0;
 }
+.related h1 {
+	background-color: white;
+	width: 100px;
+	text-align: center;
+	margin: 0 auto; /*to put heading on the middle*/
+	position: relative;
+	z-index: 2; /*changes the layer position to under*/
+}
+.related hr {
+	position: relative;
+	top: -20px;
+}
